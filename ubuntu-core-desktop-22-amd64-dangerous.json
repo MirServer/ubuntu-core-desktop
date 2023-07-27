@@ -1,13 +1,13 @@
 {
     "type": "model",
-    "authority-id": "canonical",
-    "brand-id": "canonical",
+    "authority-id": "1KJeUWMr6zUhKaxWK5aYP3VvQgYIitzI",
+    "brand-id": "1KJeUWMr6zUhKaxWK5aYP3VvQgYIitzI",
     "series": "16",
     "model": "ubuntu-core-desktop-22-amd64-dangerous",
     "display-name":"Ubuntu Core Desktop 22 (amd64) (dangerous)",
     "architecture": "amd64",
     "revision": "1",
-    "timestamp": "2023-07-06T13:46:00+00:00",
+    "timestamp": "2023-07-25T15:51:29+00:00",
     "grade": "dangerous",
     "base": "core22-desktop",
     "snaps": [
@@ -40,6 +40,18 @@
             "default-channel": "latest/edge",
             "type": "app",
             "id": "LVkazk0JLrL0ivuHRlv3wp3bK1nAgwtN"
+        },
+        {
+            "name": "confined-shell",
+            "default-channel": "latest/edge",
+            "type": "app",
+            "id": "yr6WZUJmg2jhwpG6GvPVX2FhhM84SGwM"
+        },
+        {
+            "name": "mesa-core22",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "UijXdFgvIKp9ZZ6P4ijPAJHWZLtSKgWm"
         },
         {
             "name": "core22",
