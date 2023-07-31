@@ -1,0 +1,69 @@
+{
+    "type": "model",
+    "authority-id": "1KJeUWMr6zUhKaxWK5aYP3VvQgYIitzI",
+    "brand-id": "1KJeUWMr6zUhKaxWK5aYP3VvQgYIitzI",
+    "series": "16",
+    "model": "confined-shell-22-amd64-dangerous",
+    "display-name":"Confined Shell 22 (amd64) (dangerous)",
+    "architecture": "amd64",
+    "revision": "1",
+    "timestamp": "2023-07-20T14:06:33+00:00",
+    "grade": "dangerous",
+    "base": "core22-desktop",
+    "snaps": [
+        {
+            "name": "core20",
+            "default-channel": "latest/stable",
+            "type": "base",
+            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
+        },
+        {
+            "name": "mesa-core20",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "pDDsAW9ifzZnogboHJu3udsA6LsbGeGP"
+        },
+        {
+            "name": "pc-desktop",
+            "default-channel": "latest/edge",
+            "type": "gadget",
+            "id": "mZqHskGgGDECRCKP7h7ef3Rl2wTwyNfy"
+        },
+        {
+            "name": "pc-kernel",
+            "default-channel": "22/stable",
+            "type": "kernel",
+            "id": "pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza"
+        },
+        {
+            "name": "snapd",
+            "default-channel": "latest/edge/ubuntu-core-desktop",
+            "type": "snapd",
+            "id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        },
+        {
+            "name": "core22-desktop",
+            "default-channel": "latest/edge",
+            "type": "base",
+            "id": "qRMmQqNDz8kRUTqFIgqk2RzNNoC7jUZ6"
+        },
+        {
+            "name": "core22",
+            "default-channel": "latest/stable",
+            "type": "base",
+            "id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+        },
+        {
+            "name": "confined-shell",
+            "default-channel": "latest/edge",
+            "type": "app",
+            "id": "yr6WZUJmg2jhwpG6GvPVX2FhhM84SGwM"
+        },
+        {
+            "name": "mesa-core22",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "UijXdFgvIKp9ZZ6P4ijPAJHWZLtSKgWm"
+        }
+    ]
+}

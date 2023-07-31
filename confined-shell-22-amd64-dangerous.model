@@ -1,0 +1,69 @@
+type: model
+authority-id: 1KJeUWMr6zUhKaxWK5aYP3VvQgYIitzI
+revision: 1
+series: 16
+brand-id: 1KJeUWMr6zUhKaxWK5aYP3VvQgYIitzI
+model: confined-shell-22-amd64-dangerous
+architecture: amd64
+base: core22-desktop
+display-name: Confined Shell 22 (amd64) (dangerous)
+grade: dangerous
+snaps:
+  -
+    default-channel: latest/stable
+    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
+    name: core20
+    type: base
+  -
+    default-channel: latest/stable
+    id: pDDsAW9ifzZnogboHJu3udsA6LsbGeGP
+    name: mesa-core20
+    type: app
+  -
+    default-channel: latest/edge
+    id: mZqHskGgGDECRCKP7h7ef3Rl2wTwyNfy
+    name: pc-desktop
+    type: gadget
+  -
+    default-channel: 22/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/edge/ubuntu-core-desktop
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: latest/edge
+    id: qRMmQqNDz8kRUTqFIgqk2RzNNoC7jUZ6
+    name: core22-desktop
+    type: base
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/edge
+    id: yr6WZUJmg2jhwpG6GvPVX2FhhM84SGwM
+    name: confined-shell
+    type: app
+  -
+    default-channel: latest/stable
+    id: UijXdFgvIKp9ZZ6P4ijPAJHWZLtSKgWm
+    name: mesa-core22
+    type: app
+timestamp: 2023-07-20T14:06:33+00:00
+sign-key-sha3-384: XF-CulBdgtox9hBATyBo6mDMA_ZfwQkimh-M3o3mF9Z20L01q16fpaOhmXeTSt58
+
+AcLBcwQAAQoAHRYhBExYnf68MEe/rLHCX4EBG8X4YU7hBQJkv8lMAAoJEIEBG8X4YU7ho70QALOC
+B6RxXNlkEtbXxoTHcz26VOrLDquIQodisN5mZHUnaOPFgeeH9I85c9YEg72oWESwRhptpkkW3iOM
+e57nCbJ8k+5YNzEvPCYJkCD0DaHghOOPG2dOKISpLEGXazj9YuhPX8ZTtbNqqjgbybD4cmzQkS4y
+QxJFp4yIRCdNlflnhDpvoBQETDva6gFH9R3VT5RPhIy7EzGqtd69qt46di9O7JUlhytT6LGKBmVv
+XNntcC9NVoAeoT7SdKj6EJ0ulGg0cnMyOeNVFy+3PC23tPq5Ab0xhC0PtW674x1EHQOKwzKVBL80
+o/WnmDcpplHAdS0vK41IfIUq8jEg6woGyN8XH00Yil3bKDlcuRk3GiiBGmmgP4ND/JuVZQMIqTvr
+FM635+oI93tXqyl1+ArxvW0HigBg+5H7K///6pHid0OF42IlifkzcF+nel9dVIqvILl7Inz0coA2
+9qk23t49dMZzXq0MERTNVuDdlkgGhaH4LvS+ILto7NLlcXqiuMwGmkk1/lw/Dsxmvr5yCudYeKBV
+0wDdyreIaX4mKXeEqBm8UG7lMPwAVWQzZ6cAMLNqXv1x2IIQWv7xU4uilAct7Vj5E96wGon88yNB
+QcBzg3wwqCg5LxZFkB3IsDfgXZYOQUPBL0RxgkOn+/cItC/ktXx+FdEHw0b1oyLdK+bGCBL+
