@@ -1,5 +1,5 @@
 
-EXTRA_SNAPS = ../pc-amd64-gadget-desktop/pc-desktop_22-0.3_amd64.snap ../core-base-desktop/core22-desktop_20230721_amd64.snap ../../MirServer/iot-example-graphical-snap/iot-example-graphical-snap_0+git.0c73c97_amd64.snap
+EXTRA_SNAPS = ../pc-amd64-gadget-desktop/pc-desktop_22-0.3_amd64.snap ../core-base-desktop/core22-desktop_20230904_amd64.snap
 ALL_SNAPS = $(EXTRA_SNAPS) eog evince firefox gnome-calculator gnome-characters gnome-clocks gnome-font-viewer gnome-logs gnome-text-editor gnome-weather
 
 all: pc.tar.gz

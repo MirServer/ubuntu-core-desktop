@@ -10,16 +10,6 @@ display-name: Confined Shell 22 (amd64) (dangerous)
 grade: dangerous
 snaps:
   -
-    default-channel: latest/stable
-    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
-    name: core20
-    type: base
-  -
-    default-channel: latest/stable
-    id: pDDsAW9ifzZnogboHJu3udsA6LsbGeGP
-    name: mesa-core20
-    type: app
-  -
     default-channel: latest/edge
     id: mZqHskGgGDECRCKP7h7ef3Rl2wTwyNfy
     name: pc-desktop
@@ -41,6 +31,11 @@ snaps:
     type: base
   -
     default-channel: latest/stable
+    id: DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q
+    name: core20
+    type: base
+  -
+    default-channel: latest/stable
     id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
     name: core22
     type: base
@@ -54,16 +49,71 @@ snaps:
     id: UijXdFgvIKp9ZZ6P4ijPAJHWZLtSKgWm
     name: mesa-core22
     type: app
+  -
+    default-channel: 22/stable
+    id: RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy
+    name: network-manager
+    type: app
+  -
+    default-channel: latest/stable
+    id: EISPgh06mRh1vordZY9OZ34QHdd7OrdR
+    name: bare
+    type: base
+  -
+    default-channel: latest/stable
+    id: m1eQacDdXCthEwWQrESei3Zao3d5gfJF
+    name: cups
+    type: app
+  -
+    default-channel: latest/stable
+    id: WJKWBUuCDufOFw2p24tvkbbw02plGkbd
+    name: ipp-usb
+    type: app
+  -
+    default-channel: latest/stable
+    id: dVK2PZeOLKA7vf1WPCap9F8luxTk9Oll
+    name: avahi
+    type: app
+  -
+    default-channel: 22/stable
+    id: JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS
+    name: bluez
+    type: app
+  -
+    default-channel: latest/stable
+    id: jZLfBRzf1cYlYysIjD2bwSzNtngY0qit
+    name: gtk-common-themes
+    type: app
+  -
+    default-channel: latest/stable
+    id: lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3
+    name: gnome-42-2204
+    type: app
+  -
+    default-channel: latest/candidate/core22
+    id: 3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk
+    name: firefox
+    type: app
+  -
+    default-channel: latest/stable
+    id: rw36mkAjdIKl13dzfwyxP87cejpyIcct
+    name: gnome-3-38-2004
+    type: app
+  -
+    default-channel: latest/stable
+    id: XC73ux8XOHjoahd9keAyvM3LVkPBLTzy
+    name: remmina
+    type: app
 timestamp: 2023-07-20T14:06:33+00:00
 sign-key-sha3-384: XF-CulBdgtox9hBATyBo6mDMA_ZfwQkimh-M3o3mF9Z20L01q16fpaOhmXeTSt58
 
-AcLBcwQAAQoAHRYhBExYnf68MEe/rLHCX4EBG8X4YU7hBQJkv8lMAAoJEIEBG8X4YU7ho70QALOC
-B6RxXNlkEtbXxoTHcz26VOrLDquIQodisN5mZHUnaOPFgeeH9I85c9YEg72oWESwRhptpkkW3iOM
-e57nCbJ8k+5YNzEvPCYJkCD0DaHghOOPG2dOKISpLEGXazj9YuhPX8ZTtbNqqjgbybD4cmzQkS4y
-QxJFp4yIRCdNlflnhDpvoBQETDva6gFH9R3VT5RPhIy7EzGqtd69qt46di9O7JUlhytT6LGKBmVv
-XNntcC9NVoAeoT7SdKj6EJ0ulGg0cnMyOeNVFy+3PC23tPq5Ab0xhC0PtW674x1EHQOKwzKVBL80
-o/WnmDcpplHAdS0vK41IfIUq8jEg6woGyN8XH00Yil3bKDlcuRk3GiiBGmmgP4ND/JuVZQMIqTvr
-FM635+oI93tXqyl1+ArxvW0HigBg+5H7K///6pHid0OF42IlifkzcF+nel9dVIqvILl7Inz0coA2
-9qk23t49dMZzXq0MERTNVuDdlkgGhaH4LvS+ILto7NLlcXqiuMwGmkk1/lw/Dsxmvr5yCudYeKBV
-0wDdyreIaX4mKXeEqBm8UG7lMPwAVWQzZ6cAMLNqXv1x2IIQWv7xU4uilAct7Vj5E96wGon88yNB
-QcBzg3wwqCg5LxZFkB3IsDfgXZYOQUPBL0RxgkOn+/cItC/ktXx+FdEHw0b1oyLdK+bGCBL+
+AcLBcwQAAQoAHRYhBExYnf68MEe/rLHCX4EBG8X4YU7hBQJk9dYsAAoJEIEBG8X4YU7hqwUP/inY
+q8u1UFmZ98f05Xxlup1y5LgqL7X1CHNVf5P4KAKK8Ze3ffAT40hJsWdh35xbFJD95/rhsGvVJBOn
+v+YlM1w017pJ3yx8ALoPhzeIwHM2BLZDM/cRssN7lfITyOTLRoE8FqHY2/zg2ZCEMEe2sl/YhvWu
+20kf3I5paw5uZxtfZHDWtNRQSGY0r/VmMk5zFFfgvZWO0oAOLtXpeV3TfHWweIiwB67Z47D2oEsG
+jG3aVi/6cKZH7EtVy28ma3Y6e6BIV3Rj7c6Jmva6ZVj1mR4TbeWY0Np7BGNj8ohPfJl964pj45NE
+KLuWI2LO3D9RvlhhuEIK3b/R42KphcARBg3MG8fwBrdDuVSxDzpDIi2tlcoZmdHFJdSc/U42hNs+
+FHzMMHhHJeUi782Qm0YRdlQd+Rg+iB43mUtpGGf5R4bbXO7rMGVqe5yQgH09Gr5+LwKv5zaJ45Vd
+L+rONImnhapV7Kszr8HGF1P6QRXAG3JpfO+B2+YcdiyTUGVp0hlRoAGjytBS8b7XlFZb5mwGY7U3
+P4JRhq3KGFXljX3MAj3UrcgmcTMrXD+lELMVsho3yCpyc6DmvGbmYDdYpGo1kmP3G3bh5Xg0mIXQ
+a0YF9b8j/DIc91/p1xIC7q3g7OaKP5+EK9vTp5swbieRFC6KwJd8nXFS08uCKDm7Urdms/c1

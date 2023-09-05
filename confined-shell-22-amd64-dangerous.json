@@ -12,18 +12,6 @@
     "base": "core22-desktop",
     "snaps": [
         {
-            "name": "core20",
-            "default-channel": "latest/stable",
-            "type": "base",
-            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
-        },
-        {
-            "name": "mesa-core20",
-            "default-channel": "latest/stable",
-            "type": "app",
-            "id": "pDDsAW9ifzZnogboHJu3udsA6LsbGeGP"
-        },
-        {
             "name": "pc-desktop",
             "default-channel": "latest/edge",
             "type": "gadget",
@@ -48,6 +36,12 @@
             "id": "qRMmQqNDz8kRUTqFIgqk2RzNNoC7jUZ6"
         },
         {
+            "name": "core20",
+            "default-channel": "latest/stable",
+            "type": "base",
+            "id": "DLqre5XGLbDqg9jPtiAhRRjDuPVa5X1q"
+        },
+        {
             "name": "core22",
             "default-channel": "latest/stable",
             "type": "base",
@@ -64,6 +58,72 @@
             "default-channel": "latest/stable",
             "type": "app",
             "id": "UijXdFgvIKp9ZZ6P4ijPAJHWZLtSKgWm"
+        },
+        {
+            "name": "network-manager",
+            "default-channel": "22/stable",
+            "type": "app",
+            "id": "RmBXKl6HO6YOC2DE4G2q1JzWImC04EUy"
+        },
+        {
+            "name": "bare",
+            "default-channel": "latest/stable",
+            "type": "base",
+            "id": "EISPgh06mRh1vordZY9OZ34QHdd7OrdR"
+        },
+        {
+            "name": "cups",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "m1eQacDdXCthEwWQrESei3Zao3d5gfJF"
+        },
+        {
+            "name": "ipp-usb",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "WJKWBUuCDufOFw2p24tvkbbw02plGkbd"
+        },
+        {
+            "name": "avahi",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "dVK2PZeOLKA7vf1WPCap9F8luxTk9Oll"
+        },
+        {
+            "name": "bluez",
+            "default-channel": "22/stable",
+            "type": "app",
+            "id": "JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS"
+        },
+        {
+            "name": "gtk-common-themes",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "jZLfBRzf1cYlYysIjD2bwSzNtngY0qit"
+        },
+        {
+            "name": "gnome-42-2204",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "lATO8HzwVvrAPrlZRAWpfyrJKlAJrZS3"
+        },
+        {
+            "name": "firefox",
+            "default-channel": "latest/candidate/core22",
+            "type": "app",
+            "id": "3wdHCAVyZEmYsCMFDE9qt92UV8rC8Wdk"
+        },
+        {
+            "name": "gnome-3-38-2004",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "rw36mkAjdIKl13dzfwyxP87cejpyIcct"
+        },
+        {
+            "name": "remmina",
+            "default-channel": "latest/stable",
+            "type": "app",
+            "id": "XC73ux8XOHjoahd9keAyvM3LVkPBLTzy"
         }
     ]
 }
